@@ -8,7 +8,7 @@ const Post = () => {
 
   return (
     <>
-      <Header />
+      <Header title={`${id} - Post`} />
       <h1>Post: {id}</h1>
       <ul>
         <li>

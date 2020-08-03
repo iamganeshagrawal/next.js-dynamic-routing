@@ -1,6 +1,11 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import Head from 'next/head';
 
-const Header = () => (
+const Header = ({title}) => (
+  <>
+  <Head>
+    <title>{title}</title>
+  </Head>
   <header>
     <ul>
       <li>
@@ -25,6 +30,7 @@ const Header = () => (
       </li>
     </ul>
   </header>
+  </>
 )
 
 export default Header

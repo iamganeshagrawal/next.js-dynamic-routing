@@ -2,7 +2,7 @@ import Header from '../components/header'
 
 const Home = () => (
   <>
-    <Header />
+    <Header title="Home" />
     <h1>Hello World!</h1>
   </>
 )

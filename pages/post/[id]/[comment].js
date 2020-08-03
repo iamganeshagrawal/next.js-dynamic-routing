@@ -7,7 +7,7 @@ const Comment = () => {
 
   return (
     <>
-      <Header />
+      <Header title={`${comment} | ${id} - Post`} />
       <h1>Post: {id}</h1>
       <h1>Comment: {comment}</h1>
     </>
